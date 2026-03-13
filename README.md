@@ -1,0 +1,2 @@
+Um projeto simples que surgiu como atividade da faculdade e eu apenas aprimorei para ficar mais completo.
+O sistema funciona calculando o IMC do usuário com base no seu peso e altura, e depois mostra resultado que diz se você está com peso normal, baixo peso, sobrepeso ou obeso (Lembrando que o calculo de IMC usa apenas o peso geral como base e não diferencia gordura de massa magra etc. Para confirmações ideais busque diagnóstico profissional.)
