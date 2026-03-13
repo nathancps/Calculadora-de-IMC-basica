@@ -16,13 +16,13 @@ public class calculadoraImc {
          String imcFormatado = String.format("%.2f", imc);
         
         if (imc > 30) {
-            System.out.println("\nIMC: " + imcFormatado + " Classificação: Obesidade");   
-      } else if (imc >= 25 && imc < 30) {
-            System.out.println("\nIMC: " + imcFormatado + " Classificação: Sobrepeso");
+            System.out.println("\nIMC: " + imcFormatado + " Classificacao: Obesidade");   
+      } else if (imc >= 25) {
+            System.out.println("\nIMC: " + imcFormatado + " Classificacao: Sobrepeso");
         } else if (imc < 18.5) {
-            System.out.println("\nIMC: " + imcFormatado + " Classificação: Baixo peso");
+            System.out.println("\nIMC: " + imcFormatado + " Classificacao: Baixo peso");
         } else {
-            System.out.println("\nIMC: " + imcFormatado + " Classificação: Peso normal");
+            System.out.println("\nIMC: " + imcFormatado + " Classificacao: Peso normal");
         }
     }
 }
