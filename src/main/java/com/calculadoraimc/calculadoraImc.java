@@ -15,7 +15,9 @@ public class calculadoraImc {
         double imc = (peso/(altura * altura));
          String imcFormatado = String.format("%.2f", imc);
         
-        if (imc > 30) {
+         if (peso < 0 || altura < 0) {
+            System.out.println("Digite um valor válido!!");   
+      } else if (imc > 30) {
             System.out.println("\nIMC: " + imcFormatado + " Classificacao: Obesidade");   
       } else if (imc >= 25) {
             System.out.println("\nIMC: " + imcFormatado + " Classificacao: Sobrepeso");
